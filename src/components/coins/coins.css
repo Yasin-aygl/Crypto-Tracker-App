@@ -1,0 +1,77 @@
+.container .input-heading {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 2rem 1rem;
+ padding: .7rem 1rem;
+
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: #606063;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#26272b ;
+    box-shadow: 0px 0px 15px #111;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+}
+
+.coin-name {
+    margin-left: -4rem;
+}
+
+@media screen  and (max-width: 720px){
+    .hide-mobile {
+        display: none;
+    }
+}
+
+
+/* CoinItem  */
+
+.coin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#26272b ;
+    box-shadow: 0px 0px 6px #978519;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+}
+
+.coin-row:hover {
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px #d2b40e;
+}
+
+img {
+    height: 40px;
+    margin-right: 8px;
+    width: auto;
+}
+
+.img-symbol {
+    display: flex;
+    align-items: center;
+}
